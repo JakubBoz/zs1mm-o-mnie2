@@ -1,0 +1,51 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    background-color: #F5F0E6;
+}
+header, footer {
+    background-color: #6B4F3A;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 15px;
+    color: #6B4F3A;
+}
+main, aside {
+    float: left;
+    padding: 20px;
+}
+main {
+    width: 60%;
+}
+aside {
+    width: 30%;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+} /* Błąd 1: brakuje zamknięcia "}"*/
+th, td {
+    border: 1px solid #6B4F3A;
+    padding: 5px;
+}
+.senior {
+    background-color: #E8C9A0;
+}
+.blad {
+    color: darkred;
+    font-weight: bold;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+footer {
+    clear: both;
+}

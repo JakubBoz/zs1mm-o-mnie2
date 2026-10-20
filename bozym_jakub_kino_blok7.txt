@@ -1,0 +1,35 @@
+Kino-7 - strona obliczające cenę biletów w danym dniu tygodnia.
+
+Strona ma obliczać cenę biletów normalnych i ulgowych w wybranym dniu tygodnia.
+
+Po wpisaniu ilości biletów i podaniu dniu strona ma w tabelce wyświetlić rodzaj biletu (bilet), ilość biletów (liczba), cenę jednego biletu oraz całkowita cena wszystkich
+biletów (normalne i ulgowe osobnie mają być).
+
+Pod tabelą ma się pojawić całkowita cena wszystkich biletów (normalne + ulgowe).
+
+Ceny biletów:
+-Normalny = 25
+-Ulgowy = 18
+
+We wtorek ceny biletów mają być o 5 mniej (normalny 20, ulgowy 13).
+
+Jeżeli liczba biletów jest większa lub równa 6 od sumy odejmujesz 15.
+
+Użytkownik nie może podać więcej niż 10 biletów
+
+W momencie, gdy użytkownich podał nieprawidłową liczbę (mniejsza 0 lub równa 0) lub nie podał dnia tygodnia musi się pojawić komunikat z błędem.
+
+Metoda przesyłania danych musi być POST.
+ 
+Podpowiedzi:
+-Fukcnja, która podaje cenę biletu (sprawdza rodzaj biletu i dzień tygonia)
+-Komunikaty z błędami:
+  Jeżeli użytkownik nie podał liczbę całkowitą:
+	"Liczba biletów musi być liczbą całkowitą."
+  Jeżeli użytkownik podał 0 biletów:
+	"Wybierz co najmniej jeden bilet."
+  Jeżeli użytkownik dał więcej niż 10 biletów:
+	"Jednorazowo można kupić najwyżej 10 biletów."
+  Jeżeli użytkownik nie wybrał dnia tygonia:
+	"Wybierz dzień z listy."
+	 
